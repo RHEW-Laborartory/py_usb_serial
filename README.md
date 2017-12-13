@@ -1,4 +1,4 @@
-# Rhew Lab Scripts
+# Python USB Serial Scripts
 Python scripts used to identify, adjust permissions, and read serial communications from USB devices.
 
 ## Terminal Commands 
