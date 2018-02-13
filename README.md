@@ -11,6 +11,7 @@ Python scripts used to identify, adjust permissions, and read serial communicati
 - `unlocktty.py`
   * Grants all users permission to read and write from all USBtty ports currently connected.
 - `readtty.py`
+  * __THIS SCRIPT IS DEPRICATED AND SHOULD NOT BE USED__
   * Reads a user provided USBtty port and then allows for arguments to be added such as bits per second (baud), parity, data bits, and stop bits.
 - `seeUSBserial.py`
   * Does much the same thing as `seeserial` in regards to showing all USB devices that are currently connected, but can be easily modified to change what attributes are shown (see [pyserial DOCS](https://pythonhosted.org/pyserial/tools.html))
