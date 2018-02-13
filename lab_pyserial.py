@@ -1,7 +1,4 @@
 import serial
-# Omega Water Trap
-# PORT = '/dev/cu.usbserial-FTYZM33G' 
-# Omega Sample Trap
 PORT = '/dev/cu.usbserial-FT91NTBS'
 BAUDRATE = 9600
 BYTESIZE = serial.SEVENBITS
