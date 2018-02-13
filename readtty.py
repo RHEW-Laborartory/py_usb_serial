@@ -32,8 +32,8 @@ def main():
 		usb_port = input("Specify port number: ")
 
     # Main Command (Includes tty type, and port number)
-	# command = 'python -m serial.tools.miniterm /dev/tty{}{}'.format(tty_type, usb_port)
-	command = 'python -m serial.tools.miniterm /dev/{}'.format(usb_port)
+	command = 'python -m serial.tools.miniterm /dev/tty{}{}'.format(tty_type, usb_port)
+# 	command = 'python -m serial.tools.miniterm /dev/{}'.format(usb_port)
 
     # Adding additional arguments
 	try:
@@ -140,7 +140,7 @@ def main():
 		
         # Omega
 		elif template_choice == 'O':
-			subprocess.call([command, '9600',  'bytesize=EIGHTBITS', 'parity=PARITY_NONE', 'stopbits=STOPBITS_ONE', 'xonxoff=False', 'rtscts=False', 'dsrdtr=False'], shell=True)
+			subprocess.call([command, '9600',  'bytesize=SEVENBITS', 'parity=PARITY_ODD', 'stopbits=STOPBITS_ONE', 'xonxoff=False', 'rtscts=False', 'dsrdtr=False'], shell=True)
 
 	else:
         # Run command with default settings
