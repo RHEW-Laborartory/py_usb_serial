@@ -1,7 +1,7 @@
 # Python USB Serial Scripts
 Python scripts used to identify, adjust permissions, and read serial communications from USB devices.
 
-## Terminal Commands 
+*** 
 - `fid_seeserial.py`
   * Shows all currently connected USB devices (except Memory Storage Devices like Flash Drives), along with various attributes
   of each device.
