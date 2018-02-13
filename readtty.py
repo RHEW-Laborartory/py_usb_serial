@@ -1,8 +1,7 @@
 #!/usr/bin/python
 import subprocess 
 
-# To run me from the command line simply type readtty.
-# If permission is denied simply switch to root
+# THIS SCRIPT IS DEPRECATED AND SHOULD NOT BE USED
 
 
 def main():
